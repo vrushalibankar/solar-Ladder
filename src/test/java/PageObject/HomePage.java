@@ -51,7 +51,7 @@ public class HomePage extends BasePage {
 	}
 
 	public void performDragAndDropcard() throws InterruptedException {
-		Thread.sleep(5000);
+		Thread.sleep(1000);
 		action = actionClassObjCreation();
 
 		Action dragAndDrop = action.clickAndHold(div_enquiry_projectcard).moveToElement(div_sitevisit)
